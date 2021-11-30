@@ -3,8 +3,8 @@ import random
 import torch
 from torch import nn
 from functools import partial
-from recbole.model.abstract_recommender import SequentialRecommender
-from recbole.model.layers import TransformerEncoder
+from RecBole.recbole.model.abstract_recommender import SequentialRecommender
+from RecBole.recbole.model.layers import TransformerEncoder
 from einops import rearrange, reduce, repeat
 from einops.layers.torch import Rearrange, Reduce
 
